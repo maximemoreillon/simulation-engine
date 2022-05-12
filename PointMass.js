@@ -31,6 +31,7 @@ class PointMass {
         components.forEach( component => {
             this.velocity[component] += this.acceleration[component] * delta_time_s
             this.position[component] += this.velocity[component] * delta_time_s
+            
         })
       
     }
